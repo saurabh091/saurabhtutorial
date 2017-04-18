@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("Changes performed....")
         loader = MBProgressHUD.showAdded(to: sampleView, animated: true)
+        print("give me a try...")
     }
     
     override func didReceiveMemoryWarning() {
