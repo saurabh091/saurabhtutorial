@@ -13,9 +13,12 @@
 		5395FD1C1EA62A2600A5E745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5395FD1B1EA62A2600A5E745 /* Assets.xcassets */; };
 		5395FD1F1EA62A2600A5E745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5395FD1D1EA62A2600A5E745 /* LaunchScreen.storyboard */; };
 		5395FD271EA6338200A5E745 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5395FD261EA6338200A5E745 /* MapViewController.swift */; };
+		5D82ABC2C92101B9E1614E56 /* Pods_SaurabhGitTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02C270754685A4501A7B4D1 /* Pods_SaurabhGitTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0404A2F2473751B7BA38CA5F /* Pods-SaurabhGitTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaurabhGitTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaurabhGitTutorial/Pods-SaurabhGitTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		0F8B3763CF253D1116DBF160 /* Pods-SaurabhGitTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaurabhGitTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaurabhGitTutorial/Pods-SaurabhGitTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		5395FD111EA62A2600A5E745 /* SaurabhGitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaurabhGitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5395FD141EA62A2600A5E745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5395FD161EA62A2600A5E745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5395FD1E1EA62A2600A5E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5395FD201EA62A2600A5E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5395FD261EA6338200A5E745 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F02C270754685A4501A7B4D1 /* Pods_SaurabhGitTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaurabhGitTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D82ABC2C92101B9E1614E56 /* Pods_SaurabhGitTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C95D210AB8621FCD4E8604 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02C270754685A4501A7B4D1 /* Pods_SaurabhGitTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5395FD081EA62A2600A5E745 = {
 			isa = PBXGroup;
 			children = (
 				5395FD131EA62A2600A5E745 /* SaurabhGitTutorial */,
 				5395FD121EA62A2600A5E745 /* Products */,
+				910A8D12513DAE8533936E26 /* Pods */,
+				27C95D210AB8621FCD4E8604 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,15 @@
 			path = SaurabhGitTutorial;
 			sourceTree = "<group>";
 		};
+		910A8D12513DAE8533936E26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8B3763CF253D1116DBF160 /* Pods-SaurabhGitTutorial.debug.xcconfig */,
+				0404A2F2473751B7BA38CA5F /* Pods-SaurabhGitTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5395FD231EA62A2600A5E745 /* Build configuration list for PBXNativeTarget "SaurabhGitTutorial" */;
 			buildPhases = (
+				7015E21D76F66B2AB84F6FD5 /* [CP] Check Pods Manifest.lock */,
 				5395FD0D1EA62A2600A5E745 /* Sources */,
 				5395FD0E1EA62A2600A5E745 /* Frameworks */,
 				5395FD0F1EA62A2600A5E745 /* Resources */,
+				1942F28C8E7367046C5BB3BC /* [CP] Embed Pods Frameworks */,
+				3CC5F077645204E5E7E9C3A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +161,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1942F28C8E7367046C5BB3BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaurabhGitTutorial/Pods-SaurabhGitTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CC5F077645204E5E7E9C3A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaurabhGitTutorial/Pods-SaurabhGitTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7015E21D76F66B2AB84F6FD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5395FD0D1EA62A2600A5E745 /* Sources */ = {
@@ -263,6 +338,7 @@
 		};
 		5395FD241EA62A2600A5E745 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8B3763CF253D1116DBF160 /* Pods-SaurabhGitTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4Q2Q36CY8;
@@ -276,6 +352,7 @@
 		};
 		5395FD251EA62A2600A5E745 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0404A2F2473751B7BA38CA5F /* Pods-SaurabhGitTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q4Q2Q36CY8;
