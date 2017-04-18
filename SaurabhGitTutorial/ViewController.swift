@@ -1,7 +1,6 @@
 //
 //  ViewController.swift
-//  SaurabhGitTutorial
-//
+//  SaurabhGit
 //  Created by STIGA-IMAC1 on 18/04/17.
 //  Copyright © 2017 STIGA-IMAC1. All rights reserved.
 //
@@ -13,6 +12,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Changes performed....")
+        let mapView = MapViewController()
+        print(mapView)
     }
 
     override func didReceiveMemoryWarning() {
